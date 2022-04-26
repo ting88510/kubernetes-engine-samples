@@ -39,7 +39,7 @@ spec:
         command: ["./prometheus-dummy-exporter"]
         args:
         - --metric-name=custom_prometheus
-        - --metric-value=40
+        - --metric-value=30
         - --port=8080
       # pre-built 'prometheus-to-sd' sidecar container to export prometheus
       # metrics to Stackdriver
